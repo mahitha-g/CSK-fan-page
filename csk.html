@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="csk.css" />
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="card">
+                <h1 class="main-heading"> CSK FAN APP</h1>
+                <p class="paragraph">
+                    IPL is a tournament where 9 teams compete against <br>
+                    each other to face csk in the finals.
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button" onclick="display('sectionachievements')">
+                        Get more info
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionachievements">
+        <div class="bg-container1">
+            <h1 class="main-heading1">CSK Achievements</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="csk-card-item">
+                    <img src="https://cdn.newsnationtv.com/images/2020/03/09/chennai-19.JPG" class="csk-card-image" />
+                    <h1 class="heading"> CSK in 2010 </h1>
+                    <p class="para1">
+                        Mumbai Indians kept losing wickets in their run-chase <br>
+                        and eventually lost the match by 22 runs.CSK won the title
+                    </p>
+                </div>
+                <div class="csk-card-item">
+                    <img src="https://cricketaddictor.com/wp-content/uploads/2021/04/Chennai-Super-Kings-1.jpg" class="csk-card-image" />
+                    <h1 class="heading">CSK in 2011</h1>
+                    <p class="para1">CSK not only did they successfully defend the title,but also assert their dominance in the league with a win percentage of 64.11 </p>
+                </div>
+
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="csk-card-item">
+                    <img src="https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/05/28/Pictures/vivo-ipl-2018-the-final-csk-srh_5b310ec0-6249-11e8-a998-12ee0acfa260.jpg" class="csk-card-image" />
+                    <h1 class="heading">CSK in 2018</h1>
+                    <p class="para1">Shane Watson’s brutal, unbeaten 117* helped CSK beat SRH by eight wickets to win the tournament for the third time.</p>
+                </div>
+                <div class="csk-card-item">
+                    <img src="https://img.jagranjosh.com/images/2021/October/16102021/CSK_wins_IPL_2021.jpg" class="csk-card-image" />
+                    <h1 class="heading">CSK in 2021</h1>
+                    <p class="para1">The Super Kings have previously lifted the IPL title thrice (in 2010, 2011 and 2018). In the final, they beat Kolkata Knight Riders to win their fourth IPL title.[</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="csk-card-item">
+                    <img src="https://img.jagranjosh.com/images/2023/May/3052023/ipl-2023-winner-chennai-super-kings-csk.jpg" class="csk-card-image" />
+                    <h1 class="heading">CSK in 2023</h1>
+                    <p class="para1">Chennai Super Kings won their 5th IPL Title after defeating Gujarat Titans in the rain affected 2023 Indian Premier League final. </p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="button1" onclick="display('sectionhome')">
+                    Back
+                </button>
+                <button class="button1" onclick="display('sectionplayers')">
+                    more info
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionplayers">
+        <div class="bg-container2">
+            <h1 class="main-heading2">CSK Players(as of 2023)</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="csk-card1-item" onclick="display('sectionchahar')">
+                    <img src="https://www.mykhel.com/thumb/220x100x220/cricket/players/9/5059.1671618103.jpg" onclick="display('sectionchahar')" class="player-card-image " />
+                    <h1 class="name ">Deepak Chahar</h1>
+                    <p class="talent">Bowler</p>
+                </div>
+
+                <div class="csk-card1-item" onclick="display('sectionjadeja')">
+                    <img src="https://www.hindustantimes.com/ht-img/img/2023/05/11/1600x900/PTI05-10-2023-000385B-0_1683795556060_1683795656264.jpg" onclick="display('sectionjadeja')" class="player-card-image" />
+                    <h1 class="name">Ravindra Jadeja</h1>
+                    <p class="talent">all-rounder</p>
+                </div>
+                <div class="csk-card1-item" onclick="display('sectionstokes')">
+                    <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/177.png" onclick="display('sectionstokes')" class="player-card-image" />
+                    <h1 class="name">Ben Stokes</h1>
+                    <p class="talent">all-rounder</p>
+                </div>
+                <div class="csk-card1-item" onclick="display('sectionrayudu')">
+                    <img src="https://images.news18.com/ibnlive/uploads/2023/07/ambati-rayudu-ipl-twitter-168879586716x9.jpg" onclick="display('sectionrayudu')" class="player-card-image" />
+                    <h1 class="name">Ambati Rayudu</h1>
+                    <p class="talent">Batsman</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="csk-card1-item" onclick="display('sectiongaikwad')">
+                    <img src="https://imgnew.outlookindia.com/public/uploads/articles/2021/12/14/Ruturaj-Gaikwad-Closeup.jpg" onclick="display('sectiongaikwad')" class="player-card-image " />
+                    <h1 class="name "> Ruturaj Gaikwad</h1>
+                    <p class="talent">Batsman</p>
+                </div>
+                <div class="csk-card1-item" onclick="display('sectionconway')">
+                    <img src="https://www.100mbsports.com/wp-content/uploads/2022/03/Devon-Conway-e1648638090230.jpg" onclick="display('sectionconway')" class="player-card-image" />
+                    <h1 class="name">Devon Conway</h1>
+                    <p class="talent">Batsman</p>
+                </div>
+                <div class="csk-card1-item" onclick="display('sectionali')">
+                    <img src="https://imgnew.outlookindia.com/public/uploads/articles/2021/4/4/Moeen-Ali-CSK-twitter.jpg" onclick="display('sectionali')" class="player-card-image" />
+                    <h1 class="name">Moeen Ali</h1>
+                    <p class="talent">all-rounder</p>
+                </div>
+                <div class="csk-card1-item" onclick="display('sectiondube')">
+                    <img src="https://datatrained.com/dt-fun/wp-content/uploads/2023/05/Ram-Charan-1.jpg" onclick="display('sectiondube')" class="player-card-image" />
+                    <h1 class="name">Shivam Dube</h1>
+                    <p class="talent">all-rounder</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="csk-card1-item" onclick="display('sectiondhoni')">
+                    <img src="https://www.hindustantimes.com/static-content/1y/cricket-logos/players/ms-dhoni.png" onclick="display('sectiondhoni')" class="player-card-image" />
+                    <h1 class="name">M.S.Dhoni</h1>
+                    <p class="talent">Captain & WC & Batsman</p>
+                </div>
+                <div class="csk-card1-item" onclick="display('sectionmukesh')">
+                    <img src="https://www.rightrasta.com/wp-content/uploads/2022/04/Mukesh-Choudhary-Biography-Cricketer-Wiki.png" onclick="display('sectionmukesh')" class="player-card-image" />
+                    <h1 class="name">Mukesh Choudhary</h1>
+                    <p class="talent">all-rounder</p>
+                </div>
+                <div class="csk-card1-item" onclick="display('sectionmaheesh')">
+                    <img src="https://i0.wp.com/thesportsgrail.com/wp-content/uploads/2023/04/maheesh-theekshana-biography.jpg?fit=1280%2C720&ssl=1" onclick="display('sectionmaheesh')" class="player-card-image" />
+                    <h1 class="name">Maheesh Theekshana</h1>
+                    <p class="talent">all-rounder</p>
+                </div>
+            </div>
+            <button class="button1" onclick="display('sectionachievements')">Back</button>
+        </div>
+    </div>
+    <div id="sectionchahar">
+        <div class="bg-container3">
+            <div class="d-flex flex-row justify-content-center">
+
+                <img src="https://i3.wp.com/bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/91.png?strip=all" class="player1-card-image" />
+            </div>
+            <p class="para2">Deepak Chahar is an Indian cricketer who plays for the Chennai franchise in the Indian Premier League. Deepak Chahar was born on Aug 07, 1992; and as of 2023, he is 31 years old. Deepak Chahar is a bowler from Agra and bowls fast seam. He made his IPL debut in 2016. Deepak Chahar has played 73 matches to date in his IPL career and he took 72 wickets, with an average of 28.04, conceding nearly 7.93 runs per over with a best individual figure of 4/13. In the IPL Auction 2023, the Chennai franchise acquired the services of Deepak Chahar for Rs 14.00 Cr. On May 2023, he played his last IPL match against Gujarat at Narendra Modi Stadium, Ahmedabad, India, and had bowling figures of 38/1.
+
+                Read more at: https://www.mykhel.com/cricket/players/deepak-chahar-ipl-p5059/
+            </p>
+            <button class="button1" onclick="display('sectionplayers')">Back</button>
+        </div>
+    </div>
+    <div id="sectionjadeja">
+        <div class="bg-container3">
+            <div class="d-flex flex-row justify-content-center">
+
+                <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/46.png" class="player1-card-image" />
+            </div>
+            <p class="para2">Ravindra Jadeja is an Indian cricketer who plays for the Chennai franchise in the Indian Premier League. Ravindra Jadeja was born on Dec 06, 1988; and as of 2023, he is 35 years old. Ravindra Jadeja is an all-rounder from Saurashtra and bats left handed and bowls orthodox. He made his IPL debut in 2008. Ravindra Jadeja has played 226 matches to date in his IPL career and has scored 2677 runs, with an average of 26.25. He has also slammed 2 half-centuries, with his highest IPL score being 62* runs. Ravindra Jadeja has hit 192 fours and 98 sixes in his IPL career. In the IPL Auction 2023, the Chennai franchise acquired the services of Ravindra Jadeja for Rs 16.00 Cr. On May 2023, he played his last IPL match against Gujarat at the Narendra Modi Stadium, Ahmedabad, India, scoring 15 runs off 6 balls.
+
+                Read more at: https://www.mykhel.com/cricket/players/ravindra-jadeja-ipl-p3856/
+            </p>
+            <button class="button1" onclick="display('sectionplayers')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionstokes">
+        <div class="bg-container3">
+            <div class="d-flex flex-row justify-content-center">
+
+                <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/177.png" class="player1-card-image" />
+            </div>
+            <p class="para2">Ben Stokes is an England cricketer who plays for the Chennai franchise in the Indian Premier League. Ben Stokes was born on Jun 04, 1991; and as of 2023, he is 32 years old. Ben Stokes is an all-rounder from Christchurch, New Zealand and bats left handed and bowls fast seam. He made his IPL debut in 2017. Ben Stokes has played 45 matches to date in his IPL career and has scored 935 runs, with an average of 24.61. He has also slammed 2 centuries and 2 half-centuries, with his highest IPL score being 107* runs. Ben Stokes has hit 81 fours and 32 sixes in his IPL career. In the IPL Auction 2023, the Chennai franchise acquired the services of Ben Stokes for Rs 16.25 Cr. On Apr 2023, he played his last IPL match against Lucknow at the M.A. Chidambaram Stadium, Chennai, India, scoring 8 runs off 8 balls.
+
+                Read more at: https://www.mykhel.com/cricket/players/ben-stokes-ipl-p4489/
+
+            </p>
+            <button class="button1" onclick="display('sectionplayers')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionrayudu">
+        <div class="bg-container3">
+            <div class="d-flex flex-row justify-content-center">
+
+                <img src="https://newsd.in/wp-content/uploads/2023/05/Ambati-Rayudu-1.jpg" class="player1-card-image" />
+            </div>
+            <p class="para2">Ambati Rayudu is an Indian cricketer who plays for the Chennai franchise in the Indian Premier League. Ambati Rayudu was born on Sep 23, 1985; and as of 2023, he is 38 years old. Ambati Rayudu is a batsman from Guntur, Andhra Pradesh and bats right handed. He made his IPL debut in 2010. Ambati Rayudu has played 204 matches to date in his IPL career and has scored 4332 runs, with an average of 28.31. He has also slammed 1 century and 22 half-centuries, with his highest IPL score being 100* runs. Ambati Rayudu has hit 358 fours and 171 sixes in his IPL career. In the IPL Auction 2023, the Chennai franchise acquired the services of Ambati Rayudu for Rs 6.75 Cr. On May 2023, he played his last IPL match against Gujarat at the Narendra Modi Stadium, Ahmedabad, India, scoring 19 runs off 8 balls.
+
+                Read more at: https://www.mykhel.com/cricket/players/ambati-rayudu-ipl-p4620/
+
+            </p>
+            <button class="button1" onclick="display('sectionplayers')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectiongaikwad">
+        <div class="bg-container3">
+            <div class="d-flex flex-row justify-content-center">
+
+                <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/102.png" class="player1-card-image" />
+            </div>
+            <p class="para2">Ruturaj Gaikwad is an Indian cricketer who plays for the Chennai franchise in the Indian Premier League. Ruturaj Gaikwad was born on Jan 31, 1997; and as of 2023, he is 26 years old. Ruturaj Gaikwad is a batter from Pune and bats right handed. He made his IPL debut in 2020. Ruturaj Gaikwad has played 52 matches to date in his IPL career and has scored 1797 runs, with an average of 39.07. He has also slammed 1 century and 14 half-centuries, with his highest IPL score being 101* runs. Ruturaj Gaikwad has hit 159 fours and 73 sixes in his IPL career. In the IPL Auction 2023, the Chennai franchise acquired the services of Ruturaj Gaikwad for Rs 6.00 Cr. On May 2023, he played his last IPL match against Gujarat at the Narendra Modi Stadium, Ahmedabad, India, scoring 26 runs off 16 balls.
+
+                Read more at: https://www.mykhel.com/cricket/players/ruturaj-gaikwad-ipl-p12302/
+
+
+            </p>
+            <button class="button1" onclick="display('sectionplayers')">Back</button>
+        </div>
+    </div>
+
+
+    <div id="sectionconway">
+        <div class="bg-container3">
+            <div class="d-flex flex-row justify-content-center">
+
+                <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/601.png" class="player1-card-image" />
+            </div>
+            <p class="para2">Devon Conway is an New Zealand cricketer who plays for the Chennai franchise in the Indian Premier League. Devon Conway was born on Jul 08, 1991; and as of 2023, he is 32 years old. Devon Conway is a batter from Johannesburg, Gauteng and bats left handed. He made his IPL debut in 2022. Devon Conway has played 23 matches to date in his IPL career and has scored 924 runs, with an average of 48.63. He has also slammed 9 half-centuries, with his highest IPL score being 92* runs. Devon Conway has hit 99 fours and 30 sixes in his IPL career. In the IPL Auction 2023, the Chennai franchise acquired the services of Devon Conway for Rs 1.00 Cr. On May 2023, he played his last IPL match against Gujarat at the Narendra Modi Stadium, Ahmedabad, India, scoring 47 runs off 25 balls.
+
+                Read more at: https://www.mykhel.com/cricket/players/devon-conway-ipl-p7559/
+
+
+            </p>
+            <button class="button1" onclick="display('sectionplayers')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionali">
+        <div class="bg-container3">
+            <div class="d-flex flex-row justify-content-center">
+
+                <img src="https://i0.wp.com/crichead.com/wp-content/uploads/2023/02/Moeen-Ali-IPL-2023-Stats.jpg" class="player1-card-image" />
+            </div>
+            <p class="para2">Moeen Ali is an England cricketer who plays for the Chennai franchise in the Indian Premier League. Moeen Ali was born on Jun 18, 1987; and as of 2023, he is 36 years old. Moeen Ali is an all-rounder from Birmingham and bats left handed and bowls off spin. He made his IPL debut in 2018. Moeen Ali has played 59 matches to date in his IPL career and has scored 1034 runs, with an average of 22.48. He has also slammed 5 half-centuries, with his highest IPL score being 93 runs. Moeen Ali has hit 88 fours and 59 sixes in his IPL career. In the IPL Auction 2023, the Chennai franchise acquired the services of Moeen Ali for Rs 8.00 Cr. On May 2023, he played his last IPL match against Gujarat at the Narendra Modi Stadium, Ahmedabad, India, scoring 0 runs off 0 balls.
+
+                Read more at: https://www.mykhel.com/cricket/players/moeen-ali-ipl-p3992/
+
+
+
+            </p>
+            <button class="button1" onclick="display('sectionplayers')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectiondube">
+        <div class="bg-container3">
+            <div class="d-flex flex-row justify-content-center">
+
+                <img src="https://www.mykhel.com/thumb/220x100x220/cricket/players/3/12293.1671620082.jpg" class="player1-card-image" />
+            </div>
+            <p class="para2">Shivam Dube is an Indian cricketer who plays for the Chennai franchise in the Indian Premier League. Shivam Dube was born on Jun 26, 1993; and as of 2023, he is 30 years old. Shivam Dube is an all-rounder from and bats left handed and bowls medium seam. He made his IPL debut in 2019. Shivam Dube has played 51 matches to date in his IPL career and has scored 1099 runs, with an average of 28.18. He has also slammed 6 half-centuries, with his highest IPL score being 95* runs. Shivam Dube has hit 58 fours and 73 sixes in his IPL career. In the IPL Auction 2023, the Chennai franchise acquired the services of Shivam Dube for Rs 4.00 Cr. On May 2023, he played his last IPL match against Gujarat at the Narendra Modi Stadium, Ahmedabad, India, scoring 32 runs off 21 balls.
+
+                Read more at: https://www.mykhel.com/cricket/players/shivam-dube-ipl-p12293/
+
+
+
+
+            </p>
+            <button class="button1" onclick="display('sectionplayers')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectiondhoni">
+        <div class="bg-container3">
+            <div class="d-flex flex-row justify-content-center">
+
+                <img src="https://www.sportzcraazy.com/wp-content/uploads/2019/12/MS-Dhoni-ipl.jpg" class="player1-card-image" />
+            </div>
+            <p class="para2">MS Dhoni is an Indian cricketer who plays for the Chennai franchise in the Indian Premier League. MS Dhoni was born on Jul 07, 1981; and as of 2023, he is 42 years old. MS Dhoni is a wicket keeper from Ranchi and bats right handed. He made his IPL debut in 2008. MS Dhoni has played 250 matches to date in his IPL career and has scored 5082 runs, with an average of 39.09. He has also slammed 24 half-centuries, with his highest IPL score being 84* runs. MS Dhoni has hit 349 fours and 239 sixes in his IPL career. In the IPL Auction 2023, the Chennai franchise acquired the services of MS Dhoni for Rs 12.00 Cr. On May 2023, he played his last IPL match against Gujarat at the Narendra Modi Stadium, Ahmedabad, India, scoring 0 runs off 1 balls.
+
+                Read more at: https://www.mykhel.com/cricket/players/ms-dhoni-ipl-p3243/
+
+
+
+
+
+            </p>
+            <button class="button1" onclick="display('sectionplayers')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionmukesh">
+        <div class="bg-container3">
+            <div class="d-flex flex-row justify-content-center">
+
+                <img src="https://www.mykhel.com/thumb/220x100x220/cricket/players/4/13974.1671619094.jpg" class="player1-card-image" />
+            </div>
+            <p class="para2">Mukesh Choudhary is an Indian cricketer who plays for the Chennai franchise in the Indian Premier League. Mukesh Choudhary was born on Jul 06, 1996; and as of 2023, he is 27 years old. Mukesh Choudhary is an all-rounder from Pardodas, Bhilwara, Rajsthan and bats left handed and bowls fast seam. He made his IPL debut in 2022. Mukesh Choudhary has played 13 matches to date in his IPL career and has scored 6 runs, with an average of 6.00. With his highest IPL score being 4 runs. In the IPL Auction 2023, the Chennai franchise acquired the services of Mukesh Choudhary for Rs 20.00 Lac. On May 2022, he played his last IPL match against Rajasthan at the Brabourne Stadium, Mumbai, India, scoring 0 runs off 0 balls.
+
+                Read more at: https://www.mykhel.com/cricket/players/mukesh-choudhary-ipl-p13974/
+
+
+
+
+
+
+            </p>
+            <button class="button1" onclick="display('sectionplayers')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionmaheesh">
+        <div class="bg-container3">
+            <div class="d-flex flex-row justify-content-center">
+
+                <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/629.png" class="player1-card-image" />
+            </div>
+            <p class="para2">Maheesh Theekshana is an Sri lankan cricketer who plays for the Chennai franchise in the Indian Premier League. Maheesh Theekshana was born on Aug 01, 2000; and as of 2023, he is 23 years old. Maheesh Theekshana is an all-rounder from Colombo and bats right handed and bowls off spin. He made his IPL debut in 2022. Maheesh Theekshana has played 22 matches to date in his IPL career and has scored 7 runs, with an average of 7.00. With his highest IPL score being 7* runs. In the IPL Auction 2023, the Chennai franchise acquired the services of Maheesh Theekshana for Rs 70.00 Lac. On May 2023, he played his last IPL match against Gujarat at the Narendra Modi Stadium, Ahmedabad, India, scoring 0 runs off 0 balls.
+
+                Read more at: https://www.mykhel.com/cricket/players/maheesh-theekshana-ipl-p14211/
+
+
+
+
+
+
+            </p>
+            <button class="button1" onclick="display('sectionplayers')">Back</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
